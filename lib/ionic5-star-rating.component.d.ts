@@ -10,7 +10,7 @@ export declare class StarRating implements ControlValueAccessor, OnInit {
     registerOnChange(fn: any): void;
     registerOnTouched(fn: any): void;
     setDisabledState?(isDisabled: boolean): void;
-    rating: number;
+    rating: any;
     ratingChanged: EventEmitter<number>;
     readonly: string;
     activeColor: string;
